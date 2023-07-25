@@ -10,7 +10,7 @@ function Navbar() {
       className="flex justify-between items-center w-full h-20px-4 text-white bg-black fixed"
     >
       <div>
-        <h1 className="text-5xl font-signature ml-2 mt-5" id="user-detail-name">Gaurav Shukla</h1>
+        <h1 className="text-5xl font-signature ml-2 mt-5" id="user-detail-name">TrilochanPrasad B Hilli</h1>
       </div>
       <ul className="hidden md:flex ">
         <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">

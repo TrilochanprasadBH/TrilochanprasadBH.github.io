@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -20,6 +20,16 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
+          GitHub <FaPhone size={30} />
+        </>
+      ),
+      ids:"contact-phone",
+      href: "https://github.com/TrilochanprasadBH",
+    },
+    {
+      id: 3,
+      child: (
+        <>
           GitHub <FaGithub size={30} />
         </>
       ),
@@ -27,17 +37,18 @@ const SocialLinks = () => {
       href: "https://github.com/TrilochanprasadBH",
     },
     {
-      id: 3,
+      id: 4,
       child: (
         <>
           Mail <HiOutlineMail size={30} />
         </>
       ),
+      ids:"contact-email",
       class:"",
       href: "mailto:tptrilochanprasad@gmail.com",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
