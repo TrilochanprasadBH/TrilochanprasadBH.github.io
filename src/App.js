@@ -32,7 +32,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <GitHubS/>
+      {/* <GitHubS/> */}
       <Contact />
       <SocialLinks/>
     </div>
