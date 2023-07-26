@@ -26,14 +26,14 @@ function About() {
         </div>
         <p className="text-xl mt-20" id="user-detail-intro" >
           Greetings! I'm Trilochanprasad B Hilli, a full stack web developer based in
-          India.  I have embarked on an exciting journey to pursue my passion for
+          India.  I am proficient in JavaScript,React,MongoDB, Node and TypeScript. I have embarked on an exciting journey to pursue my passion for
           web development.
         </p>
 
         <br />
 
         <p className="text-xl">
-          I am proficient in JavaScript,React,MongoDB, Node and TypeScript.Alongside my expertise in web technologies, I am eager to expand my
+         Alongside my expertise in web technologies, I am eager to expand my
           skill set to include AWS and react native development. When I'm not
           immersed in coding, you'll find me indulging in painting or cooking
           delicious meals. With a focus on continuous learning and a knack for
