@@ -41,6 +41,24 @@ function About() {
           innovative solutions that meet and exceed client expectations. Looking
           forward to collaborating with you and bringing your ideas to life!
         </p>
+
+        <button>
+        <a
+             href="/TrilochanPrasad_B_Hilli_Resume.pdf"
+            target="_blank"
+            download={true}
+            rel="noopener noreferrer"
+            className="nav-link resume"
+            id="resume-button-1"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view"
+              )
+            }
+          >
+            Resume
+          </a>
+        </button>
       </div>
     </div>
   );
