@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import Mobile from "../Routes/Mobile";
-import Resume from "./Trilochanprasad-B-Hilli-Resume.pdf"
+import Resume from "../Routes/Trilochanprasad-B-Hilli-Resume.pdf"
 
 
 function Navbar() {
