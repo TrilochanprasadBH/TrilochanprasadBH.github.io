@@ -44,10 +44,11 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
+      ids:"resume-button-2",
       class:"",
       style: "rounded-br-md",
       href: "https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view",
-      download: "Trilochanprasad_Resume.pdf",
+      download: "Trilochanprasad_B_Hilli_Resume.pdf",
     },
     {
       id: 5,
