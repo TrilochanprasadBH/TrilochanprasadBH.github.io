@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import Mobile from "../Routes/Mobile";
+import Resume from "./Trilochanprasad-B-Hilli-Resume.pdf"
+
+
 function Navbar() {
   const [ham, setHam] = useState(false);
   return (
@@ -49,7 +52,7 @@ function Navbar() {
           </Link>
         </li>
         <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
-          <a
+          {/* <a
              href="/TrilochanPrasad_B_Hilli_Resume.pdf"
             target="_blank"
             download={true}
@@ -63,6 +66,19 @@ function Navbar() {
             }
           >
             Resume
+          </a> */}
+            <a id="resume-link-1" href={Resume} 
+          target="_blank"
+          rel="noreferrer"
+          download className="nav-link resume" 
+          style={{textDecoration:'none'}}
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view"
+            )
+            // downloadFileUrl("https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view")
+          }
+          >Resume
           </a>
         </li>
       </ul>
