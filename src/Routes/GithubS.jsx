@@ -4,8 +4,19 @@ import GitHubCalendar from 'react-github-calendar';
 // import GitHubTopLanguages from 'github-readme-stats';
 // 
 const GitHubS = () => {
-  return (
-    <div>
+    const centerStyles = {
+        
+        display: 'grid',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        marginTop:"80px"
+        /* Add any other styles you want for the centered div */
+      };
+    
+  
+    return (
+    <div style={centerStyles}>
       {/* GitHub Activity Calendar */}
       <div className="react-activity-calendar">
         <GitHubCalendar username="TrilochanprasadBH" fullYear={false} />
