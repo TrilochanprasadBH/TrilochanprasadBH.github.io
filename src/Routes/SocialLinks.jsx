@@ -20,16 +20,6 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaPhone size={30} />
-        </>
-      ),
-      ids:"contact-phone",
-      href: "https://github.com/TrilochanprasadBH",
-    },
-    {
-      id: 3,
-      child: (
-        <>
           GitHub <FaGithub size={30} />
         </>
       ),
@@ -37,7 +27,7 @@ const SocialLinks = () => {
       href: "https://github.com/TrilochanprasadBH",
     },
     {
-      id: 4,
+      id: 3,
       child: (
         <>
           Mail <HiOutlineMail size={30} />
@@ -48,7 +38,7 @@ const SocialLinks = () => {
       href: "mailto:tptrilochanprasad@gmail.com",
     },
     {
-      id: 5,
+      id: 4,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
@@ -58,6 +48,16 @@ const SocialLinks = () => {
       style: "rounded-br-md",
       href: "https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view",
       download: "Trilochanprasad_Resume.pdf",
+    },
+    {
+      id: 5,
+      child: (
+        <>
+          Phone <FaPhone size={30} />
+        </>
+      ),
+      ids:"contact-phone",
+      href: "tel:9535332999",
     },
   ];
   return (

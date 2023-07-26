@@ -14,6 +14,7 @@ import Home from "./Routes/Home";
 import Projects from "./Routes/Projects";
 import Skills from "./Routes/Skills";
 import SocialLinks from "./Routes/SocialLinks";
+import GitHubS from "./Routes/GithubS";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      {/* <GitHubS/> */}
       <Contact />
       <SocialLinks/>
     </div>
