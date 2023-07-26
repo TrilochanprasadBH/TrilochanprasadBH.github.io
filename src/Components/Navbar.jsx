@@ -50,7 +50,7 @@ function Navbar() {
         </li>
         <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
           <a
-            href="https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view"
+             href="/TrilochanPrasad_B_Hilli_Resume.pdf"
             target="_blank"
             download={true}
             rel="noopener noreferrer"
