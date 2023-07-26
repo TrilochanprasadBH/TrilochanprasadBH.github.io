@@ -1,6 +1,21 @@
 import React from "react";
+import Resume from "./Trilochanprasad-B-Hilli-Resume.pdf"
 
 function About() {
+  
+  // const downloadFileUrl =(url)=>{
+  //   const filename = "Trilochanprasad_B_Hilli_Resume.pdf";
+  //   const aTag= document.createElement("a");
+  //   aTag.href=url
+  //   aTag.setAttribute("download", filename);
+  //   document.body.append(aTag);
+  //   aTag.click()
+  //   aTag.remove();
+  // }
+  
+  
+  
+  
   return (
     // <section id="about" className="about section">
     //   <div className="container">
@@ -43,8 +58,8 @@ function About() {
         </p>
 
         <button>
-        <a
-             href="/TrilochanPrasad_B_Hilli_Resume.pdf"
+        {/* <a
+             href="./TrilochanPrasad_B_Hilli_Resume.pdf"
             target="_blank"
             download={true}
             rel="noopener noreferrer"
@@ -54,10 +69,25 @@ function About() {
               window.open(
                 "https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view"
               )
+              // downloadFileUrl("https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view")
             }
           >
-            Resume
+            
+          </a> */}
+          <a id="resume-link-1" href={Resume} 
+          target="_blank"
+          rel="noreferrer"
+          download className="nav-link resume" 
+          style={{textDecoration:'none'}}
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view"
+            )
+            // downloadFileUrl("https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view")
+          }
+          >Resume
           </a>
+          
         </button>
       </div>
     </div>
