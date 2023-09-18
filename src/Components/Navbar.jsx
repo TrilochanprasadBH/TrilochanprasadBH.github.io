@@ -7,6 +7,24 @@ import Resume from "../Routes/Trilochanprasad-B-Hilli-Resume.pdf"
 
 function Navbar() {
   const [ham, setHam] = useState(false);
+  
+
+  const handleDownload = () => {
+    // Create a temporary anchor element
+    const anchor = document.createElement('a');
+    
+    // Set the href attribute to the path of the PDF file
+    // anchor.href = '/Trilochanprasad-B-Hilli-Resume.pdf';
+    anchor.href =Resume
+    // Set the download attribute to specify the desired filename
+    anchor.download = 'Trilochanprasad-B-Hilli-Resume.pdf';
+
+    // Trigger a click event on the anchor element to initiate the download
+    anchor.click();
+  };
+
+  
+  
   return (
     <nav
       id="nav-menu"
@@ -70,14 +88,16 @@ function Navbar() {
             <a id="resume-link-1" href={Resume} 
           target="_blank"
           rel="noreferrer"
-          download className="nav-link resume" 
+          // download className="nav-link resume" 
           style={{textDecoration:'none'}}
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view"
+              "https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view", handleDownload()
             )
+            
             // downloadFileUrl("https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view")
           }
+          
           >Resume
           </a>
         </li>

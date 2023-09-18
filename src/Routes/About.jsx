@@ -4,19 +4,19 @@ import Resume from "./Trilochanprasad-B-Hilli-Resume.pdf"
 function About() {
   
   const handleDownload = () => {
-    // Define the path to the PDF file
-    const pdfPath = Resume;
-
-    // Create an anchor element
+    // Create a temporary anchor element
     const anchor = document.createElement('a');
-    anchor.href = pdfPath;
-    anchor.download = 'trilochanprasad-b-hilli-resume.pdf';
+    
+    // Set the href attribute to the path of the PDF file
+    // anchor.href = '/Trilochanprasad-B-Hilli-Resume.pdf';
+    anchor.href =Resume
+    // Set the download attribute to specify the desired filename
+    anchor.download = 'Trilochanprasad-B-Hilli-Resume.pdf';
 
-    // Trigger a click event on the anchor element
+    // Trigger a click event on the anchor element to initiate the download
     anchor.click();
-  }
-  
-  
+  };
+
   
   
   return (
