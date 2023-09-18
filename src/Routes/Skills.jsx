@@ -96,7 +96,7 @@ function Skills() {
             >
             <div  className="skills-card">
             <img src={src} alt="" className="w-20 mx-auto skills-card-img"/>
-              <p className="mt-4 skills-card-img">{title}</p>
+              <p className="mt-4 skills-card-name">{title}</p>
             </div>  
             </div>
           ))}
