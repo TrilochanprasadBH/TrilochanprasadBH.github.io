@@ -3,15 +3,18 @@ import Resume from "./Trilochanprasad-B-Hilli-Resume.pdf"
 
 function About() {
   
-  // const downloadFileUrl =(url)=>{
-  //   const filename = "Trilochanprasad_B_Hilli_Resume.pdf";
-  //   const aTag= document.createElement("a");
-  //   aTag.href=url
-  //   aTag.setAttribute("download", filename);
-  //   document.body.append(aTag);
-  //   aTag.click()
-  //   aTag.remove();
-  // }
+  const handleDownload = () => {
+    // Define the path to the PDF file
+    const pdfPath = Resume;
+
+    // Create an anchor element
+    const anchor = document.createElement('a');
+    anchor.href = pdfPath;
+    anchor.download = 'trilochanprasad-b-hilli-resume.pdf';
+
+    // Trigger a click event on the anchor element
+    anchor.click();
+  }
   
   
   
@@ -57,7 +60,7 @@ function About() {
           forward to collaborating with you and bringing your ideas to life!
         </p>
 
-        <button>
+        {/* <button>
         {/* <a
              href="./TrilochanPrasad_B_Hilli_Resume.pdf"
             target="_blank"
@@ -74,7 +77,7 @@ function About() {
           >
             
           </a> */}
-          <a id="resume-link-1" href={Resume} 
+          {/* <a id="resume-link-1" href={Resume} 
           target="_blank"
           rel="noreferrer"
           download className="nav-link resume" 
@@ -86,9 +89,11 @@ function About() {
             // downloadFileUrl("https://drive.google.com/file/d/1V-fCYnoEg9JownXDlnOQHqfcVAbybDip/view")
           }
           >Resume
-          </a>
+          </a> */}
           
-        </button>
+        {/* </button>  */}
+        <button onClick={handleDownload}>Resume</button>
+        
       </div>
     </div>
   );
