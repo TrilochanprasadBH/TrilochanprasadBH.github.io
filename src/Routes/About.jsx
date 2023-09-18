@@ -92,7 +92,7 @@ function About() {
           </a> */}
           
         {/* </button>  */}
-        <button onClick={handleDownload}>Resume</button>
+        <button style={{backgroundColor:"white", color:"black", width:"20%", height:"50px" ,margin:"auto"}} onClick={handleDownload}>Resume</button>
         
       </div>
     </div>
