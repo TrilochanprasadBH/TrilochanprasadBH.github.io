@@ -5,24 +5,48 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+// import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import typescript from "../assets/typescript.png"
+import node from "../assets/node.png"
+import express from "../assets/express.png"
+import mongodb from "../assets/mongodb.png"
+import Redux from "../assets/Redux.png"
 
 function Skills() {
   const techs = [
     {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      id: 8,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-gray-400",
     },
     {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      id: 9,
+      src: node,
+      title: "Node.js",
+      style: "shadow-gray-400",
     },
+    {
+      id: 10,
+      src: mongodb,
+      title: "MongoDb",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: express,
+      title: "Express.js",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 12,
+      src: Redux,
+      title: "Redux",
+      style: "shadow-gray-400",
+    },
+    
     {
       id: 3,
       src: javascript,
@@ -47,17 +71,24 @@ function Skills() {
       title: "Tailwind",
       style: "shadow-sky-400",
     },
+
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 1,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
     },
   ];
   return (
