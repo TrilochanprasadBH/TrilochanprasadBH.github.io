@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.ae77cfe1.css",
-    "main.js": "/static/js/main.d45109bf.js",
+    "main.js": "/static/js/main.22b674cf.js",
     "static/media/savari.png": "/static/media/savari.d981bb7e4cb51d2d1e97.png",
     "static/media/attirely.png": "/static/media/attirely.f0fd458661c6c417fbf6.png",
     "static/media/befit.png": "/static/media/befit.8fa4fc5d27f9d3e7d771.png",
     "static/media/kfc.png": "/static/media/kfc.dcbd1028d763935a15de.png",
+    "static/media/Trilochanprasad-B-Hilli-Resume.pdf": "/static/media/Trilochanprasad-B-Hilli-Resume.153dd2e43d15cc39aa08.pdf",
     "static/media/mongodb.png": "/static/media/mongodb.6170bacefd8a1f69ca74.png",
     "static/media/task.png": "/static/media/task.cc35ea2dc76254362c84.png",
-    "static/media/Trilochanprasad-B-Hilli-Resume.pdf": "/static/media/Trilochanprasad-B-Hilli-Resume.9abe57ab6972b033fa07.pdf",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/nextjs.png": "/static/media/nextjs.48ddc8121a0fcb543d64.png",
@@ -22,10 +22,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.ae77cfe1.css.map": "/static/css/main.ae77cfe1.css.map",
-    "main.d45109bf.js.map": "/static/js/main.d45109bf.js.map"
+    "main.22b674cf.js.map": "/static/js/main.22b674cf.js.map"
   },
   "entrypoints": [
     "static/css/main.ae77cfe1.css",
-    "static/js/main.d45109bf.js"
+    "static/js/main.22b674cf.js"
   ]
 }
