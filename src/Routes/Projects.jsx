@@ -13,30 +13,41 @@ function Projects() {
       src:attirely,
       github: "https://github.com/TrilochanprasadBH/ATTIRLEY.COM",
       deployed: "https://attirely.netlify.app/",
+      title:"Attirely.com", 
+      stack: "JavaScript, Firebase, ChakraUI, React.js Redux"
     },
     {
       id: 2,
       src: befit,
       github: "https://github.com/TrilochanprasadBH/BeFit.com",
       deployed: "https://moonlit-spoon-3401-trilochanprasadbh.vercel.app/",
+      title:"BeFit.com",
+      stack:"React.js Redux Chakra-UI"
     },
     {
       id: 3,
       src: savari,
       github: "https://github.com/TrilochanprasadBH/MYUBER.COM",
       deployed: "https://savariapp.netlify.app/",
+      title:"MyUber.com",
+      stack:"Node.js MongoDb, React.js, Express.js JavaScript"
+      
     },
     {
       id: 4,
       src: kfc,
       github: "https://github.com/TrilochanprasadBH/KFC.COM",
       deployed: "https://kfc-app-delta.vercel.app/",
+      title:"KFC.com",
+      stack:"JavaScript,HTML,CSS"
     },
     {
       id: 5,
       src: task,
       github: "https://github.com/TrilochanprasadBH/T-TaskApp",
       deployed: "https://tasks-alpha-one.vercel.app/",
+      title:"T-Task",
+      stack:"TypeScript, Drag and Drop, React.js,"
     },
    
    
@@ -59,7 +70,7 @@ function Projects() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, deployed, github }) => (
+          {portfolios.map(({ id, src, deployed, github , title, stack}) => (
             <div
               key={id}
               className=" shadow-md shadow-gray-600 rounded-lg project-card"
@@ -81,9 +92,9 @@ function Projects() {
                   </a>
                 </button>
               </div>
-              <h6 className="project-title">title</h6>
-              <p className="project-description">desc</p>
-              <div className="project-tech-stack">tech stack</div>
+              <h6 className="project-title">Project Name:{" "}{title}</h6>
+              {/* <p className="project-description">Desc{" "}</p> */}
+              <div className="project-tech-stack">Tech Stack: {" "} {stack}</div>
             </div>
           ))}
         </div>
