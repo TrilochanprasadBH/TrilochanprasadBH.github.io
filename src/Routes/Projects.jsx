@@ -1,68 +1,53 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-// import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-// import reactWeather from "../assets/portfolio/reactWeather.jpg";
+// import navbar from "../assets/portfolio/navbar.jpg";
+import attirely from "../assets/portfolio/attirely.png"
+import befit from "../assets/portfolio/befit.png"
+import savari from "../assets/portfolio/savari.png"
+import kfc from "../assets/portfolio/kfc.png"
+import task from "../assets/portfolio/task.png"
 
 function Projects() {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      github: "https://github.com/Gauravshukla82/ambiguous-oven-8467",
-      deployed: "https://savariapp.netlify.app/",
+      src:attirely,
+      github: "https://github.com/TrilochanprasadBH/ATTIRLEY.COM",
+      deployed: "https://attirely.netlify.app/",
     },
     {
       id: 2,
-      src: reactParallax,
-      github: "https://github.com/YAKSHITH027/Attirely",
-      deployed: "https://myntra-attirely-rct201.vercel.app",
+      src: befit,
+      github: "https://github.com/TrilochanprasadBH/BeFit.com",
+      deployed: "https://moonlit-spoon-3401-trilochanprasadbh.vercel.app/",
     },
     {
       id: 3,
-      src: navbar,
-      github: "https://github.com/pankajmorecreativity/plastic-scent-4061",
-      deployed: "https://helpful-valkyrie-422f81.netlify.app",
+      src: savari,
+      github: "https://github.com/TrilochanprasadBH/MYUBER.COM",
+      deployed: "https://savariapp.netlify.app/",
     },
     {
       id: 4,
-      src: reactSmooth,
-      github: "https://github.com/pankajmorecreativity/plastic-scent-4061",
-      deployed: "https://helpful-valkyrie-422f81.netlify.app",
+      src: kfc,
+      github: "https://github.com/TrilochanprasadBH/KFC.COM",
+      deployed: "https://kfc-app-delta.vercel.app/",
+    },
+    {
+      id: 5,
+      src: task,
+      github: "https://github.com/TrilochanprasadBH/T-TaskApp",
+      deployed: "https://tasks-alpha-one.vercel.app/",
     },
    
    
   ];
 
   return (
-    // <section id="projects">
-    //   <div className="container">
-    //     <h2>Projects</h2>
-    //     <div className="project-card">
-    //       <img src="project-img-1.jpg" alt="Project Image" />
-    //       <h3 className="project-title">Project 1</h3>
-    //       <p className="project-description">Project 1 description</p>
-    //       <p className="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</p>
-    //       <a href="https://github.com/project1" target="_blank" className="project-github-link">GitHub Repository</a>
-    //       <a href="https://project1-demo.com" target="_blank" className="project-deployed-link">Demo</a>
-    //     </div>
-    //     <div className="project-card">
-    //       <img src="project-img-2.jpg" alt="Project Image" />
-    //       <h3 className="project-title">Project 2</h3>
-    //       <p className="project-description">Project 2 description</p>
-    //       <p className="project-tech-stack">Tech stack used: React, Node.js</p>
-    //       <a href="https://github.com/project2" target="_blank" className="project-github-link">GitHub Repository</a>
-    //       <a href="https://project2-demo.com" target="_blank" className="project-deployed-link">Demo</a>
-    //     </div>
-    //   </div>
-    // </section>
-
+    
     <div
       name="projects"
       id="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white"
+      className="bg-gradient-to-b from-black to-gray-850 w-full md:h-screen text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
