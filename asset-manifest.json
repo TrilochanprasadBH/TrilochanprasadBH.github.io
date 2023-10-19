@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9831262e.css",
-    "main.js": "/static/js/main.102ae22a.js",
+    "main.css": "/static/css/main.134eaaed.css",
+    "main.js": "/static/js/main.a07e9b5a.js",
+    "static/media/mongodb.png": "/static/media/mongodb.6170bacefd8a1f69ca74.png",
     "static/media/reactParallax.jpg": "/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
-    "static/media/graphql.png": "/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/reactSmooth.jpg": "/static/media/reactSmooth.a2ffb0a8d6db6a651603.jpg",
     "static/media/arrayDestruct.jpg": "/static/media/arrayDestruct.84671dfd109d4de76bae.jpg",
     "static/media/navbar.jpg": "/static/media/navbar.7ce4ddd4bd6a2fa48cd5.jpg",
     "static/media/Trilochanprasad-B-Hilli-Resume.pdf": "/static/media/Trilochanprasad-B-Hilli-Resume.9abe57ab6972b033fa07.pdf",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/nextjs.png": "/static/media/nextjs.48ddc8121a0fcb543d64.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/express.png": "/static/media/express.39a0f4c3d981885c64f8.png",
+    "static/media/typescript.png": "/static/media/typescript.bb13ebd9561a6ee645c2.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.9831262e.css.map": "/static/css/main.9831262e.css.map",
-    "main.102ae22a.js.map": "/static/js/main.102ae22a.js.map"
+    "main.134eaaed.css.map": "/static/css/main.134eaaed.css.map",
+    "main.a07e9b5a.js.map": "/static/js/main.a07e9b5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9831262e.css",
-    "static/js/main.102ae22a.js"
+    "static/css/main.134eaaed.css",
+    "static/js/main.a07e9b5a.js"
   ]
 }
