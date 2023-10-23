@@ -31,7 +31,7 @@ function About() {
     <div
       name="about"
       id="about" 
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white about section"
+      className="w-full h-screen bg-gradient-to-b from-pink-300 to-yellow text-black about section"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -92,7 +92,7 @@ function About() {
           </a> */}
           
         {/* </button>  */}
-        <button id="resume-link-2" className="nav-link resume" style={{backgroundColor:"white", color:"black", width:"20%", height:"50px" ,margin:"auto", }} onClick={handleDownload}>Resume</button>
+        <button id="resume-link-2" className="nav-link resume" style={{backgroundColor:"grey", color:"white", width:"20%", height:"50px" ,margin:"auto"}}  onClick={handleDownload}>Resume</button>
         
       </div>
     </div>

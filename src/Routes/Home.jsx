@@ -3,12 +3,13 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 // import image from "../assets/image.png";
 import { Link } from "react-scroll";
 
+
 const Home = () => {
   return (
     <div
       name="home"
       id="home"
-      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"
+      className="w-full h-screen bg-gradient-to-b from-green-300 to-white-300"
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
         <div className="flex flex-col justify-center h-full">

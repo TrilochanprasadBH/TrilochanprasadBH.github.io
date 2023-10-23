@@ -109,7 +109,7 @@ function Skills() {
     <div
       name="skills"
       id="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
+      className="bg-gradient-to-b from-black to-white w-full min-h-screen"
       // className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div 
